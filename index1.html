@@ -1,0 +1,205 @@
+<HTML>
+
+<HEAD>
+  <TITLE>HOME</TITLE>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9-S0A6lj-F6GPm0G0RCUHsgKloSgeRfrZ7A&s">
+  <style>
+    img {
+      width: 15%S;
+      height: auto;
+      display: block;
+      /* Make the image a block-level element */
+      margin: 0 auto;
+    }
+ 
+    nav {
+      text-align: center;
+    }
+
+    nav a {
+      position: relative;
+      text-decoration: none;
+      padding: 10px 0;
+      color: #333;
+      font-size: 18px;
+      display: inline-block;
+      transition: color 0.3s ease;
+    }
+    nav{
+      border: 1px solid black;
+      border-style:solid;
+      border-radius: 3px;
+
+    }
+    nav a:hover{
+      text-decoration:underline;
+    }
+    .hero-section {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFFyfeY-STL0SvzLTq3fqvwquz7bYD9arxcQ&s") no-repeat center center/cover;
+    height: 60vh; /* Use viewport height for responsiveness */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+/* Add an overlay for better text readability */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1; /* Make sure content is above the overlay */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-content h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+    footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.social-icons {
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate animation on hover */
+.social-icon:hover {
+    animation: rotate-icon 0.5s forwards;
+}
+
+@keyframes rotate-icon {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.subscribe-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.subscribe-section form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.subscribe-section input {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe-button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.subscribe-button:hover {
+    box-shadow: 0 0 15px #28a745; /* Glow effect */
+}
+  </style>
+</HEAD>
+
+<BODY>
+  <HEADER>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62PVN-BibYo0ra1gRjl8OOCDbESMRX5Tmjg&s" align="center"><br>
+    <nav>
+      <a href="index1.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="categories.html">Categories</a>
+      <a href="about.html">About</a>
+      <a href="contact1.html">Contact</a>
+    </nav>
+    <H2 align="center">HOME PAGE OF WEBSITE</H2>
+  </HEADER>
+  <Main>
+    <section class="hero-section">
+      <div class="hero-content">
+          <h1>I am Shruti Bubna</h1>
+          <h2>I am a photographer</h2>
+          <button class="cta-button">Hire Me</button>
+      </div>
+  </section>
+
+  </Main>
+  <section id="subscribe" class="subscribe-section">
+    <h2>Subscribe for Updates</h2>
+    <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <button type="submit" class="subscribe-button">Subscribe</button>
+    </form>
+</section>
+
+<footer>
+    <div class="social-icons">
+        <a href="#" class="social-icon">Facebook</a>
+        <a href="#" class="social-icon">Twitter</a>
+        <a href="#" class="social-icon">Instagram</a>
+    </div>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+</footer>
+
+</BODY>
+
+</HTML>

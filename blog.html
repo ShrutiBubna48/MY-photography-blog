@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Blog</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&family=Lora:ital@1&display=swap"
+        rel="stylesheet">
+    <style>
+         img {
+      width: 15%S;
+      height: auto;
+      display: block;
+      /* Make the image a block-level element */
+      margin: 0 auto;
+    }
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            position: relative;
+            text-decoration: none;
+            padding: 10px 0;
+            color: #333;
+            font-size: 18px;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        nav {
+            border: 1px solid black;
+            border-style: solid;
+            border-radius: 3px;
+
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .social-icons {
+            margin-bottom: 1rem;
+        }
+
+        .social-icon {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        /* Rotate animation on hover */
+        .social-icon:hover {
+            animation: rotate-icon 0.5s forwards;
+        }
+
+        @keyframes rotate-icon {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .subscribe-section {
+            padding: 4rem 2rem;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .subscribe-section form {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .subscribe-section input {
+            padding: 12px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .subscribe-button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            background-color: #28a745;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .subscribe-button:hover {
+            box-shadow: 0 0 15px #28a745;
+            /* Glow effect */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>MY BLOG</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62PVN-BibYo0ra1gRjl8OOCDbESMRX5Tmjg&s" align="center"><br>
+    
+        <nav>
+            <a href="index1.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="categories.html">Categories</a>
+            <a href="about.html">About</a>
+            <a href="contact1.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <H1>The photography blogs that made me a better photographer</H1>
+        <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*-H3X4eez4fo_mUYrggWNtw.jpeg">
+        <pre>
+            Photography blogs are dead!
+
+            At least that’s what I’d like to say.
+
+            We’re in 2023 and it seems video content rules the internet. You see, as much as I enjoy learning through Youtube, blogs have played a major role in teaching me photography.
+
+            Now I know there is a very small percentage of the population…really tiny percent that still enjoys reading blogs even though blogs aren’t popular anymore. If you are one of us, this article is for you.
+
+In this article, I will be sharing some photography blogs that have made me a better photographer
+        </pre>
+
+        <h2>1. Strobist</h2>
+        <p>If I only had to pick one blog for this article, it would be Strobist. I can’t even remember how I came
+            across this blog, but everything I know about lighting mostly came from here.
+
+            I started from Lighting 101 and gradually made my way up. I even bought the Godox TT600 as recommended by
+            the author. Strobist is responsible for how I use Flash and how I’m able to take photos such as the one
+            below. I absolutely recommend it to anyone interested in learning how to light.</p>
+        <br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQHnWW8XROYfKllgaGDfbAn_Dn8_9Jp0uPw&s">
+        <br>
+        <h2>
+            2. Fstoppers
+        </h2>
+        <p>Fstoppers was my entryway into the worldwide photography community. It was the place I went to find
+            inspiration and see the kind of work professional photographers were making all over the world.
+
+            There are so many photographers across multiple genres on Fstoppers. In addition, the blog posts were
+            perfect for a newbie like me who just wanted to consume as much photography information as I could find.
+
+            Anyone interested in learning photography may find their courses useful as well as current news about the
+            photography industry.</p>
+    </main>
+    <section id="subscribe" class="subscribe-section">
+        <h2>Subscribe for Updates</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
